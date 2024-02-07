@@ -15,7 +15,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai"
         resultadoConsulta.innerHTML = text
         sessionStorage.setItem('respuesta', text);
 
-        window.location.href = "../index.html";
+        window.location.href = "../d/Generado.html";
    
       } catch (error) {
         resultadoConsulta.innerHTML = 'Problemas en la consulta'
